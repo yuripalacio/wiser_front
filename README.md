@@ -28,6 +28,8 @@ Por fim, foi criado uma terceira tela de "Dashboard" que é exibida quando é re
 
 O registro do usuário foram armazenado na API do [Mockapi.IO](https://www.mockapi.io).
 
+Clique [aqui](https://wiser-yuripalacio.netlify.app/) e confira o projeto final.
+
 # 🛠Tecnologias
 
 * [Yarn](https://yarnpkg.com/)
