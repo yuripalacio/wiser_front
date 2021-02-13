@@ -11,10 +11,22 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  position: absolute;
+  flex-direction: column;
   place-content: center;
+  align-items: center;
+
+  position: absolute;
 
   width: 100%;
+  top: 32px;
+
+  strong {
+    margin-left: 5px;
+  }
+
+  button {
+    width: 100px;
+  }
 `;
 
 export const Background = styled.div`

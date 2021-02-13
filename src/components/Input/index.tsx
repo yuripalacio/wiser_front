@@ -44,7 +44,7 @@ const Input: React.FC<InputProps> = ({ name, legend, ...rest }) => {
   return (
     <Container isErrored={!!error} isFilled={isFilled} isFocused={isFocused}>
       <legend>{legend}</legend>
-      <div>
+      <div data-testid="input-container">
         <input
           onFocus={handleInputFocused}
           onBlur={handleInputBlur}
